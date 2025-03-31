@@ -80,6 +80,16 @@ body{
 }
 
 @media(min-width: 768px){
+    .navbar-brand {
+        text-align: left;
+    }
+}
+
+#navbar-items{
+    justify-content: space-between;
+}
+
+@media(min-width: 768px){
     #navbar-items{
         display: flex;
         min-width: 80%;
@@ -343,7 +353,7 @@ body{
 
 
 /* galeria */
-#gallery .imagem-container{
+#gallery .image-container{
     background-size: cover;
     background-position: center;
     height: 225px;
@@ -441,7 +451,7 @@ body{
     padding: 20px;
 }
 
-#nwes-form {
+#news-form {
     max-width: 600px;
     margin: 15px auto;
 }
